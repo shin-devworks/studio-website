@@ -1,2 +1,33 @@
 @charset "UTF-8";
 :root{color-scheme:light;--ink:#203033;--muted:#5b696b;--line:#dce4df;--bg:#f8faf7;--paper:#fff;--accent:#356c62;--warm:#ba9761;--soft:#ecf3ee}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"Hiragino Kaku Gothic ProN","Yu Gothic",Meiryo,sans-serif;line-height:1.85}a{color:var(--accent)}a:hover{text-decoration-thickness:2px}.wrap{width:min(1060px,calc(100% - 40px));margin:auto}.site-header{background:rgba(255,255,255,.96);border-bottom:1px solid var(--line)}.nav{display:flex;justify-content:space-between;align-items:center;gap:20px;min-height:76px;flex-wrap:wrap}.logo{font-weight:800;font-size:1.35rem;letter-spacing:.13em;color:var(--ink);text-decoration:none}.navlinks{display:flex;gap:19px;flex-wrap:wrap;font-size:.9rem}.navlinks a{text-decoration:none;color:var(--ink)}.hero{padding:84px 0 75px;background:linear-gradient(140deg,#e5eee6,#f7f8f4 60%,#e9e4d8)}.eyebrow{font-size:.79rem;letter-spacing:.22em;color:var(--accent);font-weight:700}.hero h1{font-size:clamp(2.3rem,7vw,4.5rem);letter-spacing:.08em;margin:12px 0 10px;line-height:1.2}.lead{font-size:clamp(1.06rem,2vw,1.35rem);max-width:720px}.section{padding:65px 0}.section h2{font-size:clamp(1.45rem,3vw,2rem);margin:0 0 15px;letter-spacing:.06em}.section .intro{color:var(--muted);max-width:780px}.cards{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px;margin-top:30px}.card{background:var(--paper);border:1px solid var(--line);border-radius:12px;padding:29px}.card h3{margin:0 0 12px;font-size:1.25rem}.card p{margin:0 0 18px;color:var(--muted)}.pill{display:inline-block;background:var(--soft);color:var(--accent);padding:3px 12px;border-radius:99px;font-size:.8rem;font-weight:700}.btn{display:inline-block;background:var(--accent);color:#fff;text-decoration:none;padding:11px 22px;border-radius:6px;font-weight:700}.btn:focus-visible,a:focus-visible{outline:3px solid var(--warm);outline-offset:4px}.banner{background:#243f3c;color:#fff;border-radius:14px;padding:48px 38px;margin-top:18px}.banner h2{color:#fff}.banner p{color:#ecf4ef}.banner .btn{background:#e6c999;color:#243f3c}.pagehead{background:#edf3ed;padding:56px 0 45px;border-bottom:1px solid var(--line)}.pagehead h1{font-size:clamp(1.8rem,4vw,2.6rem);margin:9px 0}.content{max-width:840px;padding:44px 0 70px}.content h2{margin:35px 0 10px;font-size:1.3rem}.content p,.content li{color:#344345}.content ul{padding-left:1.5em}.note{background:#fff8e9;border-left:4px solid var(--warm);padding:16px 20px;margin:23px 0}.facts{display:grid;grid-template-columns:160px 1fr;border-top:1px solid var(--line);margin-top:28px}.facts dt,.facts dd{padding:12px;border-bottom:1px solid var(--line);margin:0}.facts dt{font-weight:700}.footer{border-top:1px solid var(--line);padding:28px 0 40px;background:#fff;color:var(--muted);font-size:.87rem}.footer .wrap{display:flex;justify-content:space-between;gap:15px;flex-wrap:wrap}.footer a{margin-right:15px}.placeholder{border:1px dashed #a7b8b0;background:#edf3ed;border-radius:10px;padding:32px;text-align:center;color:#587067}.small{font-size:.9rem;color:var(--muted)}@media(max-width:680px){.wrap{width:min(100% - 30px,1060px)}.nav{padding:15px 0;align-items:flex-start}.navlinks{gap:10px 16px}.hero{padding:58px 0}.section{padding:44px 0}.cards{grid-template-columns:1fr}.card{padding:22px}.banner{padding:32px 24px}.facts{grid-template-columns:1fr}.facts dt{border-bottom:0;padding-bottom:0}.facts dd{padding-top:1px}}
+
+/* 関東争乱：機能紹介（assets/css/style.css の末尾へ追加） */
+.game-features { margin-top: 58px; }
+.game-features-heading { max-width: 740px; margin-bottom: 22px; }
+.game-features-kicker,.game-feature-number { margin:0 0 6px; color:var(--accent); font-size:.75rem; font-weight:700; letter-spacing:.12em; }
+.game-features-heading > p:last-child { color:var(--muted); margin:0; }
+.game-feature { display:grid; grid-template-columns:minmax(0,1.15fr) minmax(0,.85fr); gap:clamp(20px,4vw,48px); align-items:center; padding:32px; margin-top:22px; background:var(--paper); border:1px solid var(--line); border-radius:16px; }
+.game-feature-reverse .game-feature-copy { order:2; }
+.game-feature-reverse .game-shot { order:1; }
+.game-feature h3 { font-size:clamp(1.35rem,2.6vw,1.75rem); line-height:1.45; margin:0 0 16px; }
+.game-feature-copy p { margin:0 0 13px; color:#344345; }
+.game-feature-copy p:last-child { margin-bottom:0; }
+.game-shot { margin:0; min-width:0; text-align:center; }
+.game-shot img { display:block; max-width:100%; width:auto; height:auto; max-height:500px; margin:0 auto; border-radius:12px; border:1px solid var(--line); box-shadow:0 7px 20px rgba(24,46,41,.09); }
+.game-shot figcaption { margin-top:8px; font-size:.82rem; color:var(--muted); }
+.game-feature-highlight { grid-template-columns:1fr; background:linear-gradient(140deg,#f2f7f3,#fff 65%); }
+.game-feature-highlight .game-feature-copy { max-width:850px; }
+.game-feature-highlight .game-shot-pair { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:22px; align-items:start; }
+.game-feature-highlight .game-shot img { max-height:570px; }
+.game-feature-tag { display:inline-block; vertical-align:middle; font-size:.7rem; letter-spacing:0; color:#70552d; background:#f4e8ce; padding:3px 9px; border-radius:99px; white-space:nowrap; }
+.game-feature-premium { background:linear-gradient(140deg,#fffaf0,#fff 65%); }
+.game-premium-price { margin-top:18px!important; font-weight:700; color:var(--ink)!important; }
+.game-premium-price span { font-size:.83rem; font-weight:400; color:var(--muted); }
+@media (max-width:680px) {
+  .game-features { margin-top:40px; }
+  .game-feature { grid-template-columns:1fr; gap:18px; padding:20px; }
+  .game-feature-reverse .game-feature-copy,.game-feature-reverse .game-shot { order:initial; }
+  .game-shot img { max-height:560px; }
+  .game-feature-highlight .game-shot-pair { grid-template-columns:1fr; gap:25px; }
+  .game-feature-highlight .game-shot img { max-height:580px; }
+}
