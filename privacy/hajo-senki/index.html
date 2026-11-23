@@ -1,1 +1,264 @@
-<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="description" content="『関東争乱 ～覇城戦記～』の個人情報等の取扱いについて。"><meta name="theme-color" content="#356c62"><title>プライバシーポリシー | MIOTSUGI</title><link rel="stylesheet" href="../../assets/css/style.css"></head><body><header class="site-header"><div class="wrap nav"><a class="logo" href="../../">MIOTSUGI</a><nav class="navlinks" aria-label="メインナビゲーション"><a href="../../">ホーム</a><a href="../../games/hajo-senki/">作品紹介</a><a href="../../support/">サポート</a></nav></div></header><main><section class="pagehead"><div class="wrap"><div class="eyebrow">MIOTSUGI</div><h1>プライバシーポリシー</h1><p>『関東争乱 ～覇城戦記～』の個人情報等の取扱いについて。</p></div></section><section class="content wrap"><div class="note"><strong>正式公開前の確認事項</strong>：現在は文案準備中です。位置情報・端末保存・外部送信・アプリ内課金の取扱いについて、実装コードの監査後に正式なプライバシーポリシーを掲載します。このページは現時点でApp Store Connect登録用の完成版ではありません。</div><h2>対象アプリ</h2><p>関東争乱 ～覇城戦記～（iOS）</p><h2>記載予定の事項</h2><ul><li>位置情報の利用目的と権限</li><li>城訪問履歴、御城印、軍記、ゲーム進行データの保存・復元</li><li>個人情報の取得および第三者提供の有無</li><li>アプリ内課金に関するAppleの仕組み</li><li>外部サービス、データ削除、問い合わせ窓口</li></ul><p class="small">正式版では施行日・改定日と連絡先を明記します。</p></section></main><footer class="footer"><div class="wrap"><span>© 2026 MIOTSUGI</span><div><a href="../../privacy/hajo-senki/">プライバシーポリシー</a><a href="../../terms/hajo-senki/">利用規約</a><a href="../../support/">サポート</a></div></div></footer></body></html>
+
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="『関東争乱 ～覇城戦記～』のプライバシーポリシー。位置情報、ゲームデータ、アプリ内課金、外部サービス等の取扱いについて。">
+  <meta name="theme-color" content="#356c62">
+  <title>プライバシーポリシー | MIOTSUGI</title>
+  <link rel="stylesheet" href="../../assets/css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap nav">
+    <a class="logo" href="../../">MIOTSUGI</a>
+    <nav class="navlinks" aria-label="メインナビゲーション">
+      <a href="../../">ホーム</a>
+      <a href="../../games/hajo-senki/">作品紹介</a>
+      <a href="../../support/">サポート</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="pagehead">
+    <div class="wrap">
+      <div class="eyebrow">MIOTSUGI</div>
+      <h1>プライバシーポリシー</h1>
+      <p>『関東争乱 ～覇城戦記～』における情報の取扱いについて。</p>
+    </div>
+  </section>
+
+  <section class="content wrap">
+
+    <p>
+      TRANSIENT DIGITAL WORKS（以下「運営者」といいます）は、
+      iOS向けアプリ『関東争乱 ～覇城戦記～』
+      （以下「本アプリ」といいます）の利用者の
+      プライバシーを尊重します。
+    </p>
+    <p>
+      本ポリシーでは、本アプリにおける位置情報、
+      ゲームデータ、外部サービスおよびお問い合わせ情報の
+      取扱いについて説明します。
+    </p>
+
+    <h2>1. 位置情報の利用</h2>
+    <p>
+      本アプリは、対象となる城跡への訪問を判定するため、
+      利用者の端末の位置情報を使用します。
+    </p>
+    <p>
+      利用者がGPS訪問判定を実行した際に現在地を取得し、
+      対象城跡との距離を計算します。
+      取得した現在地の緯度・経度は、
+      ゲームの訪問履歴として保存しません。
+    </p>
+    <p>
+      訪問判定に成功した場合は、
+      訪問した城の識別情報と訪問日を記録します。
+      位置情報は運営者が管理するサーバーへ
+      直接送信することを目的として取得するものではありません。
+    </p>
+    <p>
+      位置情報の利用には端末側での許可が必要です。
+      許可しない場合はGPS訪問判定機能を利用できません。
+      許可の変更はiOSの設定から行えます。
+    </p>
+
+    <h2>2. ゲームデータの保存</h2>
+    <p>
+      本アプリは、ゲーム進行のために次の情報を
+      端末内のアプリ用ストレージに保存します。
+    </p>
+    <ul>
+      <li>城跡の訪問履歴、訪問日、訪問回数</li>
+      <li>デジタル御城印の取得状況および取得日</li>
+      <li>軍記の解放状況、閲覧履歴</li>
+      <li>所属勢力、勢力ポイント、武功、役職、称号</li>
+      <li>攻略城数、褒美、拝領城、ゲームクリア状況</li>
+      <li>その他ゲーム進行に必要な情報</li>
+    </ul>
+    <p>
+      セーブデータはJSON形式で端末内に保存されます。
+      通常のゲーム進行において、これらのセーブデータを
+      運営者の独自サーバーへ送信する機能は設けていません。
+    </p>
+
+    <h2>3. バックアップと復元</h2>
+    <p>
+      本アプリは、セーブデータをJSONファイルとして
+      書き出す機能を提供しています。
+      書き出しにはiOSの共有機能を利用し、
+      利用者が保存先または共有先を選択します。
+    </p>
+    <p>
+      iCloud Driveなどの外部サービスを選択した場合は、
+      当該サービスの規約およびプライバシーポリシーに
+      従って情報が取り扱われます。
+    </p>
+    <p>
+      バックアップの復元時にはデータの形式と整合性を検証します。
+      既存のプレイ実績を保護するため、
+      所定の初期状態であるセーブデータに限り復元できます。
+      プレイ実績のあるセーブデータへの上書きは行いません。
+    </p>
+
+    <h2>4. データの保持と削除</h2>
+    <p>
+      「最初からやり直す」機能を利用した場合、
+      現在の周回のゲーム進行情報は初期化されます。
+      ただし、過去のGPS訪問履歴、
+      デジタル御城印、軍記の解放・閲覧履歴などは保持されます。
+      この操作は全データの削除ではありません。
+    </p>
+    <p>
+      端末内のアプリ用データを削除したい場合は、
+      iOSの「アプリを削除」操作をご利用ください。
+      なお、iOSのバックアップや、利用者が別途保存した
+      JSONファイル等にはデータが残る場合があります。
+      それらは各保存先で個別に管理・削除してください。
+    </p>
+    <p>
+      Appleが管理する購入履歴や購入権限は、
+      アプリを削除しても消去されません。
+    </p>
+
+    <h2>5. アプリ内課金</h2>
+    <p>
+      本アプリの追加コンテンツの購入および購入履歴の復元には、
+      Appleが提供するアプリ内課金機能（StoreKit）を使用します。
+    </p>
+    <p>
+      Appleから取得する購入権限情報を利用し、
+      プレミアムコンテンツを利用できるかどうかを判定します。
+      決済はAppleの仕組みに従って処理され、
+      運営者が本アプリを通じてクレジットカード番号などの
+      決済情報を直接取得することはありません。
+    </p>
+    <p>
+      Appleによる情報の取扱いについては、
+      <a href="https://www.apple.com/jp/legal/privacy/"
+         target="_blank" rel="noopener noreferrer">
+        Appleのプライバシーポリシー
+      </a>
+      をご確認ください。
+    </p>
+
+    <h2>6. 外部サイトへのリンク</h2>
+    <p>
+      本アプリには、城跡に関する追加情報を紹介する
+      『シンの戦国探訪記』などの外部サイトへのリンクがあります。
+    </p>
+    <p>
+      リンクを選択すると、端末の外部ブラウザでページが開きます。
+      通常のリンク操作によって、
+      本アプリのGPS座標やゲームのセーブデータを
+      リンク先へ直接送信することはありません。
+    </p>
+    <p>
+      ただし、リンク先のWebサイトでは、
+      IPアドレス、アクセスログ、Cookieなどを取得したり、
+      広告配信・アクセス解析サービスを利用したりする場合があります。
+      外部サイトでの情報の取扱いについては、
+      各サイトのプライバシーポリシーをご確認ください。
+    </p>
+
+    <h2>7. 外部サービスの利用</h2>
+    <p>
+      本アプリは、位置情報の取得にiOSの位置情報機能を、
+      アプリ内課金にAppleのStoreKitを、
+      バックアップの共有にiOSの共有機能を使用します。
+    </p>
+    <p>
+      これらのOS機能や外部サービスを利用する際には、
+      サービス提供者が必要な情報を取り扱う場合があります。
+      利用者がバックアップを外部へ共有した場合も、
+      共有先サービスの情報取扱方針が適用されます。
+    </p>
+
+    <h2>8. お問い合わせ情報の取扱い</h2>
+    <p>
+      お問い合わせは、運営者の共通サポートメールで受け付けます。
+      メール送受信にはXserverのメールサービスを使用し、
+      受信したお問い合わせメールは、
+      迅速な確認のためGoogleのGmailにも自動転送します。
+    </p>
+    <p>
+      お問い合わせの際に提供されたメールアドレス、
+      お問い合わせ内容、添付された情報等は、
+      回答、不具合の調査、サポート対応のために利用します。
+    </p>
+    <p>
+      パスワード、クレジットカード番号、
+      Apple Accountの認証情報などの機密情報は
+      送信しないでください。
+      GPSに関するお問い合わせでも、
+      正確な現在地や自宅住所を知らせる必要はありません。
+    </p>
+    <p>
+      お問い合わせ情報は、対応および必要な記録管理のために
+      保持し、不要となった場合は適切に削除します。
+      削除に関するご相談もサポート窓口で受け付けます。
+    </p>
+
+    <h2>9. 情報の安全管理</h2>
+    <p>
+      運営者は、取り扱う情報について、
+      不正アクセスや漏えい等の防止に努めます。
+      利用者が端末外に保存したバックアップファイルについては、
+      保存先のセキュリティ設定にもご注意ください。
+    </p>
+
+    <h2>10. お問い合わせ先</h2>
+    <div class="note">
+      <strong>TRANSIENT DIGITAL WORKS</strong>
+      <p style="overflow-wrap:anywhere;">
+        メール：
+        <a href="mailto:support@transient-digitalworks.com">
+          support@transient-digitalworks.com
+        </a>
+      </p>
+      <p>
+        <a href="../../support/">公式サポートページ</a>
+      </p>
+    </div>
+
+    <h2>11. プライバシーポリシーの変更</h2>
+    <p>
+      運営者は、法令や本アプリの機能、
+      外部サービスの変更等に応じて、
+      本ポリシーを改定することがあります。
+      改定後の内容は本ページに掲載します。
+    </p>
+
+    <h2>12. 運営者情報・制定日</h2>
+    <p>
+      運営者：TRANSIENT DIGITAL WORKS
+    </p>
+    <p>
+      対象アプリ：関東争乱 ～覇城戦記～（iOS）
+    </p>
+    <p>
+      制定日：2026年11月23日<br>
+      最終改定日：2026年11月23日
+    </p>
+
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="wrap">
+    <span>© 2026 MIOTSUGI</span>
+    <div>
+      <a href="../../privacy/hajo-senki/">プライバシーポリシー</a>
+      <a href="../../terms/hajo-senki/">利用規約</a>
+      <a href="../../support/">サポート</a>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
